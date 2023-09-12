@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 35vmin;
   pointer-events: none;
 }
 
@@ -28,4 +28,57 @@
 
 .small {
   font-size: 0.75rem;
+}
+.label-header{
+  display: flex;
+  font-size: 14px;
+  font-weight: bold;
+}
+.input-blocks{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.btn.btn-primary{
+width: 100px;
+height: 35px;
+background-color: #ff6840;
+border-radius: 20px;
+border: none;
+margin: 15px;
+cursor: pointer;
+color: white;
+font-weight: bold;
+font-size: 16px;
+}
+.btn.btn-primary:active{
+background-color: #e7aa99;
+}
+.btn.btn-primary:hover{
+  background-color: #e7aa99;
+}
+input{
+  height: 30px;
+    width: 400px;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+    padding-left: 5px;
+    outline: none;
+}
+input:hover{
+  background-color: #e7aa99;
+  border:none;
+  color: #ffffffff;
+  font-weight: 600;
+  padding-left: 5px;
+  outline: none;
+}
+input::placeholder{
+  font-size: 12px;
+  padding: 4px;
+  color: black;
+}
+input:active{
+  border: none;
 }

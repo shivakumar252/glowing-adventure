@@ -1,0 +1,7 @@
+.content-background{
+background-color: #282c34;
+}
+.App-logoImg{
+    height: 20vmin;
+    pointer-events: none;
+}
